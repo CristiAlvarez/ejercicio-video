@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio video</title>
+        <style>
+            .video-container {
+                position: relative;
+                /* Proporción 16:9 */
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+                margin: 1rem auto;
+                border: none;
+            }
+
+            .video-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Evolución tractor FIAT</h1>
+            <h2>Un paseo por la evolución de la marca de tractores FIAT</h2>
+        </header>
+        <nav>
+            <h2>Menú Principal</h2>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Video evolución</a></li>
+                <li><a href="#">Información de contacto</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <article>
+                    <h2></h2>
+                    <figure>
+                        <img src="#" alt="" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <!-- Desde aquí el video -->
+                    <h3></h3>
+                    <p></p>
+                    <div class="video-container">
+                        <iframe width="600" src="https://www.youtube.com/shorts/o8T-CDSa4C4" title="Evolución del tractor Fiat" frameborder="0" allow="accelerome ter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <!-- Desde aquí el audio -->
+                    <h3>Escuchamos un tractor en funcionamiento</h3>
+                    <figure style="text-align: center">
+                        <img src="#" alt="Imagen de un tractor trabajando el campo" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <p></p>
+                    <p></p>
+                    <audio src="https://openverse.org/es/search/audio?q=tractor+fiat" controls></audio>
+                </article>
+            </section>
+            <hr />
+        </main>
+    </body>
+</html>
